@@ -109,7 +109,7 @@ if ($this->user->group=='administrator'){
   </div>
 </div>
 
-<div class="mdui-container-fluid" style="padding:10px;">
+<div class="mdui-container-fluid" style="padding:0px;">
   <?php
 	$queryToolsCate= "select * from ".$this->db->getPrefix()."tools_cate";
 	$resultToolsCate = $this->db->fetchAll($queryToolsCate);
