@@ -65,7 +65,7 @@ class TleTools_Plugin implements Typecho_Plugin_Interface{
 			<div class="mdui-panel-item-header">介绍</div>
 			<div class="mdui-panel-item-body">';
 
-		$version=file_get_contents('https://tongleer.com/api/interface/TleTools.php?action=update&version=1');
+		$version=file_get_contents('https://www.tongleer.com/api/interface/TleTools.php?action=update&version=1');
 		echo '<p style="font-size:14px;">
 			<span style="display: block; margin-bottom: 10px; margin-top: 10px; font-size: 16px;">感谢您使用TleTools插件</span>
 			<span style="margin-bottom:10px;display:block">请关注 <a href="http://www.tongleer.com" target="_blank" style="color:#3384da;font-weight:bold;text-decoration:underline">同乐儿</a> 公众号以获得<span style="color:#df3827;font-weight:bold;">最新版本支持</span></span>
