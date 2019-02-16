@@ -51,7 +51,7 @@ function getServerTools($searchwords){
 		"action"=>"getServerTools",
 		"searchwords"=>$searchwords
 	);
-	$url = 'https://tongleer.com/joke/api/tools.php';
+	$url = 'https://www.tongleer.com/joke/api/tools.php';
 	$client = Typecho_Http_Client::get();
 	if ($client) {
 		$str = "";
